@@ -1,0 +1,214 @@
+@media (max-width: 1000px) {
+  .navbar-1 {
+    height: 50px;
+  }
+
+  .logo {
+    width: 35px;
+  }
+
+  .navbarbox1 {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+  }
+
+  .navbarbox2 {
+    display: none;
+  }
+
+  .navlist {
+    display: none;
+    flex-direction: column;
+    background: #ffffff;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    gap: 0px;
+  }
+
+  .navbar-2 {
+    padding: 0px 10px;
+  }
+
+  .navbar-2bg {
+    margin-top: 50px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+  
+  /* Show menu when checkbox is checked */
+  #menu-toggle:checked + .menu-icon + .navlist {
+    display: flex;
+  }
+
+  .navlist>li {
+    text-align: center;
+    border-top: 1px solid #525553;
+  }
+
+   .coffeePera {
+    font-size: 13px;
+  }
+
+  .coffeeHeading {
+    font-size: 19px;
+    margin: 8px 0px;
+  }
+
+  .coffeebox {
+    position: relative;
+  }
+
+  .coffeeBtn {
+    position: absolute;
+    right: 15px;
+    padding: 10px 25px;
+  }
+
+  .handcraftedSection {
+    padding: 0px 15px;
+  }
+
+  .handcraftedSectionBox {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+  }
+
+  .handcraftedImg > img {
+    width: 60px;
+  }
+
+  .baristaHeading {
+    font-size: 15px;
+  }
+
+  .baristaPera {
+    font-size: 17px;
+  }
+
+  .baristaSectionBox1 {
+    padding-left: 20px;
+  }
+
+  .baristaSectionImg > img {
+    width: 70px;
+  }
+
+  .baristaSectionImg2 > img {
+    width: 20px;
+  }
+
+  .baristaSectionBox2 {
+    gap: 10px;
+    width: 350px;
+    position: relative;
+  }
+
+  .JavaBox {
+    width: 40%;
+  }
+
+  .baristaBtn {
+    display: none;
+  }
+
+  .baristaBtn2 {
+    position: absolute;
+    right: 20px;
+    padding: 8px 20px;
+    font-size: 12px;
+  }
+
+  .coffeeTextBox {
+    padding: 30px;
+  }
+
+  .CofeeCultureBtnBox {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+
+  .CofeeCultureBtn2 {
+    padding: 10px 30px;
+  }
+
+  .coffeeBrewingHeading {
+    font-size: 25px;
+    font-weight: 200;
+  }
+
+  .footerUl {
+    display: none;
+  }
+
+  .angledown {
+    display: inline;
+    font-size: 22px;
+  }
+
+  footer {
+    padding: 0px 30px;
+  }
+
+  .footerHead {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 200;
+  }
+
+  .footerSection1 {
+    display: block;
+    width: 100%;
+  }
+
+  .footerMediaBox {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .icon{
+    font-size: 21px;
+  }
+
+  .downBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footerSection2 {
+    gap: 40px;
+  }
+
+  .verLine {
+    border-right: 0;
+    margin: 30px 0px;
+  }
+
+  .footerSection3{
+    display: block;
+  }
+
+  .footerLastBox1{
+    display: block;
+  }
+
+  .footerLastBox2{
+    text-align: center;
+    margin: 30px 0px;
+  }
+
+  .mediaBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
